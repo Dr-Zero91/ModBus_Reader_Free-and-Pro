@@ -1,0 +1,60 @@
+# Task: Advanced Features - Menus & File Ops
+
+- [x] Create Implementation Plan <!-- id: 11 -->
+- [x] Install Requirements <!-- id: 12 -->
+- [x] Implement Main Menu Bar <!-- id: 13 -->
+- [x] Implement File Operations <!-- id: 14 -->
+- [x] Implement Graphing <!-- id: 15 -->
+- [x] Implement Recording <!-- id: 16 -->
+- [x] Implement Licensing <!-- id: 17 -->
+
+# Task: UI Polish & Console Integration
+
+- [x] Create Implementation Plan <!-- id: 18 -->
+- [x] Integrate Console/Logs as a Tab <!-- id: 19 -->
+- [x] Custom Menu Bar <!-- id: 20 -->
+- [x] Fix Threading/Closing Issues <!-- id: 21 -->
+
+# Task: Robust Licensing & Activator
+
+- [x] Create Implementation Plan <!-- id: 22 -->
+- [x] Create [keygen.py](file:///c:/Users/Renato%20Cultrera/.gemini/antigravity/scratch/modbus_reader/keygen.py) <!-- id: 23 -->
+- [x] Implement Licensing Logic <!-- id: 24 -->
+
+# Task: Enhance Security & Fix HWID
+
+- [x] Create Implementation Plan <!-- id: 25 -->
+- [x] Improve HWID Retrieval <!-- id: 26 -->
+- [x] Implement Stronger License Key <!-- id: 27 -->
+- [x] Update [keygen.py](file:///c:/Users/Renato%20Cultrera/.gemini/antigravity/scratch/modbus_reader/keygen.py) and [modbus_reader.py](file:///c:/Users/Renato%20Cultrera/.gemini/antigravity/scratch/modbus_reader/modbus_reader.py) <!-- id: 28 -->
+
+# Task: Installation Setup
+
+- [x] Update App Messaging (Email info) <!-- id: 29 -->
+- [x] Add `pyinstaller` to requirements <!-- id: 30 -->
+- [x] Create Build Script ([build.py](file:///c:/Users/Renato%20Cultrera/.gemini/antigravity/scratch/modbus_reader/build.py)) <!-- id: 31 -->
+- [x] Create Inno Setup Script ([setup.iss](file:///c:/Users/Renato%20Cultrera/.gemini/antigravity/scratch/modbus_reader/setup.iss)) <!-- id: 32 -->
+- [x] Verify Build <!-- id: 33 -->
+
+# Task: Advanced Security & Updater
+
+- [x] Create Implementation Plan <!-- id: 34 -->
+- [x] Implement Online Verification <!-- id: 35 -->
+    - [x] PHP Verification Script ([license_server.php](file:///c:/Users/Renato%20Cultrera/.gemini/antigravity/scratch/modbus_reader/php/license_server.php)).
+    - [x] App: Check Server on Check.
+    - [x] App: Offline Grace Period (72h) logic.
+- [x] Implement Anti-Tamper <!-- id: 36 -->
+    - [x] NTP Time Check (vs System Time).
+    - [x] Integrity/Obfuscation Strategy (PyInstaller + Bytecode).
+- [x] Implement Auto-Updater <!-- id: 37 -->
+    - [x] Server: [version.json](file:///c:/Users/Renato%20Cultrera/.gemini/antigravity/scratch/modbus_reader/version.json) and `Setup.exe`.
+    - [x] App: Compare versions, prompt download.
+- [x] Upgrade KeyGen (Manager) <!-- id: 38 -->
+    - [x] SQLite DB for tracking customers.
+
+# Task: Master-Slave Sync & Deployment
+- [ ] Update [license_server.php](file:///c:/Users/Renato%20Cultrera/.gemini/antigravity/scratch/modbus_reader/php/license_server.php) (Add `list_all`) <!-- id: 39 -->
+- [ ] Update [keygen_manager.py](file:///c:/Users/Renato%20Cultrera/.gemini/antigravity/scratch/modbus_reader/keygen_manager.py) (Sync Logic) <!-- id: 40 -->
+    - [ ] Auto-sync on startup.
+    - [ ] "Server is Truth" logic (Delete local if missing on server).
+- [ ] Re-apply [modbus_reader.py](file:///c:/Users/Renato%20Cultrera/.gemini/antigravity/scratch/modbus_reader/modbus_reader.py) Production Config <!-- id: 41 -->
