@@ -64,9 +64,9 @@ Il software implementa un robusto sistema di protezione:
     ```bash
     python modbus_reader.py
     ```
-3.  Per generare chiavi di licenza (lato amministratore):
+3.  Per generare chiavi di licenza:
     ```bash
-    python keygen.py
+    Invia  HW ID a  info@recoedstudio.it
     ```
 
 ## Requisiti
