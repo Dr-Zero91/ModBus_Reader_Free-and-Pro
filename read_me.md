@@ -50,8 +50,8 @@ Il software implementa un robusto sistema di protezione:
 *   **Machine Fingerprint**: L'attivazione è legata all'hardware del PC (MAC Address + Nome Macchina).
 *   **Attivazione**:
     1.  Dall'applicazione, andare su *License -> Copy ID*.
-    2.  Utilizzare il tool amministratore `keygen.py`.
-    3.  Generare una chiave univoca basata sull'ID.
+    2.   Generare una chiave univoca basata sull'ID.
+    3.   Invia  il tuo codice  a info@recodestudio.it ed attendi  la tua licenza.
     4.  Inserire la chiave nell'applicazione per sbloccare la versione PRO permanentemente.
 
 ## Installazione
