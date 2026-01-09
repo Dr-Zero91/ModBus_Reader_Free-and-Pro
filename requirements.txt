@@ -1,8 +1,0 @@
-customtkinter
-pymodbus
-pandas
-openpyxl
-matplotlib
-requests
-pyinstaller
-ntplib
